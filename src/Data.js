@@ -1,89 +1,59 @@
-import menuImage1 from "./assets/images/menu-1.png";
-import menuImage2 from "./assets/images/menu-2.png";
-import menuImage3 from "./assets/images/menu-3.png";
-import menuImage4 from "./assets/images/menu-4.png";
-import menuImage5 from "./assets/images/menu-5.png";
-import menuImage6 from "./assets/images/menu-6.png";
-import cartImage1 from "./assets/images/cart-item-1.png";
-import cartImage2 from "./assets/images/cart-item-2.png";
-import cartImage3 from "./assets/images/cart-item-3.png";
-import cartImage4 from "./assets/images/cart-item-4.png";
-import productImage1 from "./assets/images/product-1.png";
-import productImage2 from "./assets/images/product-3.png";
-import productImage3 from "./assets/images/product-3.png";
-import reviewImage1 from "./assets/images/pic-1.png";
-import reviewImage2 from "./assets/images/pic-1.png";
-import reviewImage3 from "./assets/images/pic-1.png";
-import blogImage1 from "./assets/images/blog-1.jpeg";
-import blogImage2 from "./assets/images/blog-2.jpeg";
-import blogImage3 from "./assets/images/blog-3.jpeg";
-const menu = [
+const products = [
   {
-    img: menuImage1,
+    img: "https://www.genotek.global/hubfs/5ecba9b02fa1e90684b4a5d9_Expansion-Joint-Covers-min.png",
   },
   {
-    img: menuImage2,
+    img: "https://www.genotek.global/hubfs/Z5000.R2.png",
   },
   {
-    img: menuImage3,
+    img: "https://www.genotek.global/hubfs/Products/5ecba9b0c0621dfd1b9fd91d_Entrance-Mat-Systems-min%20(2).png",
   },
   {
-    img: menuImage4,
+    img: "https://www.genotek.global/hubfs/OF1700.front.R2.small.png",
   },
   {
-    img: menuImage5,
+    img: "https://www.genotek.global/hubfs/Products/Images/EJC/OF1000.front.R2.1177.png",
   },
   {
-    img: menuImage6,
+    img: "https://www.genotek.global/hubfs/5ecba9b02fa1e90684b4a5d9_Expansion-Joint-Covers-min.png",
   },
 ];
 
 const cart = [
   {
-    img: cartImage1,
+    img: "https://www.genotek.global/hubfs/5ecba9b02fa1e90684b4a5d9_Expansion-Joint-Covers-min.png",
   },
   {
-    img: cartImage2,
+    img: "https://www.genotek.global/hubfs/OF1700.front.R2.small.png",
   },
   {
-    img: cartImage3,
+    img: "https://www.genotek.global/hubfs/5ecba9b02fa1e90684b4a5d9_Expansion-Joint-Covers-min.png",
   },
   {
-    img: cartImage4,
+    img: "https://www.genotek.global/hubfs/Z5000.R2.png",
   },
 ];
 
-const product = [
-  {
-    img: productImage1,
-  },
-  {
-    img: productImage2,
-  },
-  {
-    img: productImage3,
-  },
-];
 const review = [
   {
-    img: reviewImage1,
+    img: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    img: reviewImage2,
+    img: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    img: reviewImage3,
+    img: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
-const blog = [
+const projects = [
   {
-    img: blogImage1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeUB_6K6Zy_fyjFldfAnT_ymBibo0wy5l8Bg&usqp=CAU",
   },
   {
-    img: blogImage2,
+    img: "https://www.genotek.global/hubfs/Project%20List/al_wakrah_stadium.jpg",
   },
   {
-    img: blogImage3,
+    img: "https://f.hubspotusercontent00.net/hubfs/6235100/5ecbb46b4966c23d386506a0_cityv2@2x-3.png",
   },
 ];
-export { menu, cart, product, review, blog };
+export { products, cart, review, projects };

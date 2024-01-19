@@ -1,5 +1,4 @@
 import React from "react";
-import AboutImg from "../assets/images/about-img";
 const About = () => {
   return (
     <>
@@ -10,21 +9,23 @@ const About = () => {
 
         <div className="row">
           <div className="image">
-            <img src={AboutImg} alt="" />
+            <img
+              src="https://www.genotek.global/hubfs/bwbouwfirmabw.jpg#keepProtocol"
+              alt=""
+            />
           </div>
 
           <div className="content">
-            <h3>what makes our food special?</h3>
+            <h3>what makes our Joint covers special?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae
-              ratione a officiis id temporibus autem? Quod nemo facilis
-              cupiditate. Ex, vel?
+              Our commitment to quality is unwavering. Genotek expansion joint
+              covers are crafted with precision and expertise, using the finest
+              materials that stand the test of time.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-              amet enim quod veritatis, nihil voluptas culpa! Neque consectetur
-              obcaecati sapiente?
+              Understanding that every project is unique, we offer more than
+              off-the-shelf solutions. Genotek believes in the power of
+              customization.
             </p>
             <a href="#" className="btn">
               learn more

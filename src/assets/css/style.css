@@ -12,6 +12,10 @@
   transition: 0.2s linear;
 }
 
+#menu-btn{
+  display: none;
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -82,8 +86,11 @@ section {
   z-index: 1000;
 }
 
-.header .logo img {
+.header .logo {
   max-width: 75px;
+  letter-spacing: 1px;
+  font-size: 2.4rem;
+  color: #ffc107;
 }
 
 .header .navbar a {
@@ -109,7 +116,7 @@ section {
   color: #ffc107;
 }
 
-#menu-btn {
+#products-btn {
   display: none;
 }
 
@@ -210,7 +217,7 @@ section {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgb(0 0 0 / 90%), rgb(68 68 68 / 35%)),
-    url(../images/home-img) no-repeat;
+    url("https://www.genotek.global/hubfs/construction-sitebw.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -276,36 +283,36 @@ section {
   gap: 1.5rem;
 }
 
-.menu .box-container .box {
+.products .box-container .box {
   padding: 5rem;
   text-align: center;
   border: 0.2rem solid #ffc107;
 }
 
-.menu .box-container .box img {
+.products .box-container .box img {
   height: 10rem;
   border-radius: 50%;
 }
 
-.menu .box-container .box h3 {
+.products .box-container .box h3 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem 0;
 }
 
-.menu .box-container .box .price {
+.products .box-container .box .price {
   color: #fff;
   font-size: 2.5rem;
   padding: 0.5rem 0;
 }
 
-.menu .box-container .box .price span {
+.products .box-container .box .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: lighter;
 }
 
-.menu .box-container .box:hover {
+.products .box-container .box:hover {
   background: #443300;
   transition: 0.5s;
 }
@@ -443,48 +450,48 @@ section {
   background: none;
 }
 
-.blogs .box-container .box {
+.projects .box-container .box {
   border: 0.2rem solid #ffc107;
 }
 
-.blogs .box-container .box .image {
+.projects .box-container .box .image {
   height: 25rem;
   overflow: hidden;
   width: 100%;
 }
 
-.blogs .box-container .box .image img {
+.projects .box-container .box .image img {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
 
-.blogs .box-container .box:hover .image img {
+.projects .box-container .box:hover .image img {
   transform: scale(1.2);
 }
 
-.blogs .box-container .box .content {
+.projects .box-container .box .content {
   padding: 2rem;
 }
 
-.blogs .box-container .box .content .title {
+.projects .box-container .box .content .title {
   font-size: 2.5rem;
   line-height: 1.5;
   color: #fff;
 }
 
-.blogs .box-container .box .content .title:hover {
+.projects .box-container .box .content .title:hover {
   color: #ffc107;
 }
 
-.blogs .box-container .box .content span {
+.projects .box-container .box .content span {
   color: #ffc107;
   display: block;
   padding-top: 1rem;
   font-size: 2rem;
 }
 
-.blogs .box-container .box .content p {
+.projects .box-container .box .content p {
   font-size: 1.6rem;
   line-height: 1.8;
   color: #ccc;
@@ -561,7 +568,10 @@ section {
 }
 
 @media (max-width: 768px) {
-  #menu-btn {
+  #products-btn {
+    display: inline-block;
+  }
+  #menu-btn{
     display: inline-block;
   }
 
@@ -573,6 +583,7 @@ section {
     width: 30rem;
     height: calc(100vh - 9.5rem);
   }
+
 
   .header .navbar.active {
     right: 0;

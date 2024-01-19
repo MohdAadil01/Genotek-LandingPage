@@ -6,14 +6,15 @@ const Home = () => {
       <section className="home" id="home">
         <div className="content">
           <h3>
-            fresh <span>food in the </span>morning
+            Genotek Expansion Joint Covers:
+            <span> Seamless Solutions for Structural Movement </span>
           </h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat
-            labore, sint cupiditate distinctio tempora reiciendis.
+            Discover our premium expansion joint covers designed to enhance
+            durability, aesthetics, and functionality
           </p>
           <a href="#" className="btn">
-            get yours now
+            Explore
           </a>
         </div>
       </section>

@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import Logo from "../assets/images/logo.png";
 import { cart } from "../Data";
 
 const Navbar = () => {
@@ -27,16 +26,15 @@ const Navbar = () => {
     <>
       <header className="header">
         <a href="#" className="logo">
-          <img src={Logo} alt="" />
+          GENTOK
         </a>
         <nav className="navbar" ref={navbarRef}>
           <a href="#home">home</a>
-          <a href="#about">about</a>
-          <a href="#menu">menu</a>
-          <a href="#products">products</a>
-          <a href="#review">review</a>
-          <a href="#contact">contact</a>
-          <a href="#blogs">blogs</a>
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#review">Review</a>
+          <a href="#contact">Contact</a>
+          <a href="#projects">Projects</a>
         </nav>
         <div className="icons">
           <div

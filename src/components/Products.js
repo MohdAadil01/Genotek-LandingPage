@@ -1,5 +1,5 @@
 import React from "react";
-import { product } from "../Data";
+import { products } from "../Data";
 const Products = () => {
   return (
     <>
@@ -9,29 +9,16 @@ const Products = () => {
         </h1>
 
         <div className="box-container">
-          {product.map((item, index) => (
+          {products.map((item, index) => (
             <div className="box" key={index * Math.random()}>
-              <div className="icons">
-                <a href="#" className="fas fa-shopping-cart"></a>
-                <a href="#" className="fas fa-heart"></a>
-                <a href="#" className="fas fa-eye"></a>
+              <img src={item.img} alt="" />
+              <h3>Expansion Joint Covers</h3>
+              <div className="price">
+                $7.99 <span>15.99</span>
               </div>
-              <div className="image">
-                <img src={item.img} alt="" />
-              </div>
-              <div className="content">
-                <h3>fresh coffee</h3>
-                <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
-                </div>
-                <div className="price">
-                  $15.99 <span>$20.99</span>
-                </div>
-              </div>
+              <a href="#" className="btn">
+                add to cart
+              </a>
             </div>
           ))}
         </div>
